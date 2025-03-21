@@ -5,8 +5,8 @@ pipeline {
         maven "mymaven"
    }
    environment{
-      DEV_SERVER_IP='ec2-user@172.31.15.100
-      DEPLOY_SERVER_IP='ec2-user@172.31.8.20
+      DEV_SERVER_IP='ec2-user@172.31.15.100'
+      DEPLOY_SERVER_IP='ec2-user@172.31.8.20'
       IMAGE_NAME='nikhilkdevops/myrepo'
    }
     stages {

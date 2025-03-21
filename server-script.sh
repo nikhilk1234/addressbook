@@ -8,7 +8,7 @@ if [ -d "addressbook" ]
 then 
   echo "repo is already cloned"
   cd addressbook/
-  git pull origin master 
+  git pull origin docker-pipeline 
 else
     git clone https://github.com/nikhilk1234/addressbook.git
     cd addressbook/
